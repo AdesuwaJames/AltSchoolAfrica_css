@@ -2,7 +2,6 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
     color: #333;
 }
 
@@ -276,19 +275,32 @@ body {
 
 .subscribe{
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #1E3551, #0D1B2A);
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
+    height: 55vh;
     margin: 0;
     margin-bottom: 10vh;
+    
+}
+.subscribe-2{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    display: flex;
+    height: 55vh;
+    margin: 0;
+    margin-bottom: 10vh;
+    position: relative;    
+    margin-top: 10vh;
+
 }
 .subscribe-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+.subscriber-img{
+    width: 30%;
 }
 
 /* URL Shortener Box */
