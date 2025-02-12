@@ -237,11 +237,17 @@ body {
 
 .plan {
     background: white;
-    padding: 20px;
-   
     width: 250px;
-
+    display: flex;
+    justify-content: end;
+    align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.plan-container{
+    width: 75%;
+    height: 90%;
+    text-align: left;
+    
 }
 .basic{
     height: 50vh;
@@ -255,22 +261,33 @@ body {
 .professional{
     background-color: #1E3448;
   height: 60vh;
+ 
 }
 .plan h3 {
-    font-size: 20px;
+    font-size: 15px;
     color: #333;
+    margin: 0;
+    margin-top: 1vh;
+    font-weight: 400;
 }
 
 .plan p {
-    font-size: 18px;
+    font-size: 25px;
     color: #1a73e8;
     font-weight: 700;
+    margin: 0;
+    margin-top: 3vh;
 }
 
 .plan ul {
     list-style: none;
     padding: 0;
     color: #555;
+    text-align: left;
+}
+.plan li{
+    font-size: 12px;
+    margin: 3vh 0vh 3vh 0vh;
 }
 
 .subscribe{
